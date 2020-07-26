@@ -337,6 +337,116 @@ label.form-inline{
   color: white;
 }
 
+/* Footer Area */
+
+.footer{
+  background-image: url(../images/footer-image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.footer-content{
+  width: 85%;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: auto;
+}
+
+.footer-content > div{
+  width: 24.25%;
+  float:left;
+  margin-right: 1%;
+}
+.footer-content > div:nth-child(4){
+  margin-right: 0;
+}
+.footer-content h3{
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer-content td,
+.footer-content th{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.latest-post h4{
+  color: white;
+  text-transform: uppercase;
+}
+.latest-post p{
+  color: #c7a17a;
+}
+
+.contact .highlight{
+  color: #c7a17a;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.contact p{
+  color: white;
+  font-weight: 700;
+}
+.contact input{
+  color: #312A26;
+  background-color: white;
+  padding: 10px;
+}
+.contact input[type="submit"]{
+  background-color: #c7a17a;
+  color: #312A26;
+}
+
+.title2{
+  margin-top: 15px;
+}
+
+.location h4{
+  margin-top: 15px;
+  color: #c7a17a;
+  text-transform: uppercase;
+}
+.location p{
+  color: white;
+  font-weight: 700;
+}
+
+/* footer 2 */
+.footer2{
+  background-color: black;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.footer2 h2,
+.footer2 p,
+.footer2 a{
+  color: white;
+}
+
+.footer2 li{
+  display: inline-block;
+}
+.footer2 .social{
+  text-align: center;
+  width: 49.5%;
+}
+.footer2 .copyright{
+  margin-right: 0;
+}
+
+@media screen and (mac-width: 768px){
+  /* If the screen is from 0-768px, it will apply all these css */
+  .nav ul{
+    display: none;
+  }
+  .ads-box{
+    width: 100%;
+  }
+}
+
+
 
 /* My code */
 /*
@@ -569,3 +679,93 @@ label.form-inline{
   margin-bottom: 10px;
   font-size: 10px;
 } */
+
+/* Footer Area */
+/*
+.footer{
+  background-color: black;
+  margin-top: 100px;
+}
+.footer-content{
+  width: 95%;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 30px;
+ overflow: auto;
+ display: flex;
+}
+.opening,
+.latest-post,
+.contact,
+.location{
+  float: left;
+  width: 25%;
+  padding-right: 1%;
+}
+.opening table{
+  font-size: 13px;
+}
+.opening h3,
+.opening th,
+.opening td,
+.latest-post h3,
+.latest-post h4,
+.contact h3,
+.contact p,
+.location h3,
+.location p,
+.logo h2,
+.social a,
+.copyright p{
+  color: white;
+}
+.opening h3,
+.latest-post h3,
+.latest-post h4,
+.contact h3,
+.location h3,
+.location h4{
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.opening table,
+.highlight{
+  margin-top: 10px;
+}
+#search{
+  padding: 5px;
+}
+#search-btn{
+  background-color: darksalmon;
+  padding: 5px;
+}
+.latest-post p,
+.highlight,
+.location h4{
+  color: #c7a17a;
+}
+.footer2{
+  background-color: black;
+  padding-bottom: 10px;  
+}
+.logo,
+.social,
+.copyright{
+  float: left;
+  width: 33.3%;
+  margin-top: auto;
+}
+.logo h2{
+  text-transform: uppercase;
+}
+.social ul li{
+  display: inline;
+}
+.social a{
+  text-decoration: none;
+}
+.copyright{
+  text-align: right;
+  font-size: 16px;
+}
+*/
