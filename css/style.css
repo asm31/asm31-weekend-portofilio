@@ -64,3 +64,311 @@ body{
 .nav li{
   display: inline-block;
 }
+
+/* Banner Area */
+/* teacher's source */
+.banner{
+  height: 650px;
+  background-color: orange;
+  background-image: url(../images/atf-image.jpg);
+  background-size: cover;
+  background-position:center;
+  margin-bottom: 5%;
+}
+.banner-text{
+  width: 30%;
+  position: relative;
+  top: 20%;
+  left: 7.5%;
+}
+.banner h2{
+  text-transform: uppercase;
+  font-size: 75px;
+  line-height: 75px;
+}
+.banner span{
+  color: #4caf50;
+  font-family: 'Oswald',sans-serif;
+}
+.banner p{
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.banner a{
+  padding: 15px 20px;
+  background-color: #312A23;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Ads Area 1 */
+.ads{
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+.ads-box{
+  width: 49.5%;
+  float: left;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-color: #312A26;
+  position: relative;
+}
+.ads .ads-box:nth-child(1),
+.ads .ads-box:nth-child(3){
+  margin-right: 1%;
+}
+.ads .ads-box:nth-child(1),
+.ads .ads-box:nth-child(2){
+  margin-bottom: 1%;
+}
+.ads1 .ads-box:nth-child(1){
+  background-image: url(../images/merchandise1.jpg);
+}
+.ads1 .ads-box:nth-child(2){
+  background-image: url(../images/merchandise2.jpg);
+}
+
+.ads2 .ads-box:nth-child(1){
+  background-image: url(../images/merchandise3.jpg);
+}
+.ds2 .ads-box:nth-child(2){
+  background-image: url(../images/merchandise4.jpg);
+}
+.ads2 .ads-box:nth-child(3){
+  background-image: url(../images/merchandise5.jpg);
+}
+.ads2 .ads-box:nth-child(4){
+  background-image: url(../images/merchandise6.jpg);
+}
+
+.ads-text{
+  width: 30%;
+  position: relative;
+  left: 10%;
+  top: 30%;
+}
+
+.ads-text h3{
+  color: white;
+  font-size: 32px;
+  line-height: 35px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.ads-text a{
+  color: white;
+  text-transform: uppercase;
+  font-family: 700;
+}
+
+/* Merchandise Area */
+.merch{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+.div-title{
+  text-align: center;
+  margin-bottom: 5%;
+}
+.div-title span{
+  color: #c7a17a;
+  font-style: italic;
+  font-size: 20px;
+}
+.div-title h2{
+  color: #312A26;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.div-title hr{
+  background-color: #c7a17a;
+  width: 10%;
+  height: 4%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.merch-gallery{
+  overflow: auto;
+}
+.merch-item{
+  width: 24.25%;
+  float: left;
+  margin-right: 1%;
+}
+
+.merch-item:nth-child(4),
+.merch-item:nth-child(8){
+  margin-right: 0;
+}
+
+.merch-item:nth-child(1),
+.merch-item:nth-child(2),
+.merch-item:nth-child(3),
+.merch-item:nth-child(4){
+  margin-bottom: 1%;
+}
+
+.merch-item img{
+  width: 100%;  
+}
+.merch-item h3{
+  color: #312A26;
+}
+.merch-item span{
+  color: #c7a17a;
+}
+.merch-item p{
+  color: #c7a17a;
+}
+
+
+
+/*
+.banner{
+  position: relative;
+
+  margin: 0 auto;
+  background-image: url(../images/atf-image.jpg);
+  height: 500px;
+  width: 1300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-text{
+  position: absolute;
+  height: 300px;
+  top: 20%;
+  left: 80px;
+}
+.banner-text h2{
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.banner-text span{
+  color: darkgreen;
+  font-family: 'Oswald' , sans-serif;
+}
+.banner-text p{
+  font-style: italic;
+}
+
+.banner-text a{
+  color: white;
+  background-color: #312A26;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+*/
+/* Ads Area 1 */
+/*
+.ads-item1{
+  background-image: url(../images/merchandise1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+.ads-item2{
+  background-image: url(../images/merchandise2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+.ads{
+  
+   width: 50%; 
+}
+.ads1{
+  width: 1100px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+}
+.ads-box{
+  width: 500px;
+  margin-left: 30px;
+}
+.ads-text{
+  position: relative;
+  top:40px;
+  left: 40px;
+  font-size: 30px;
+  text-transform: uppercase;
+  
+}
+.ads-text a{
+  position: absolute;
+  margin-top: 30px; 
+  font-size: 15px;
+  /* color: white; 
+}
+.ads-text h3{
+  /* position: absolute; 
+  /* top: 20%; 
+}
+
+/* Merchandise Area 
+.merch{
+  width: 1100px;
+  padding-top: 5px;  
+  margin: 0 auto;
+}
+.div-title{
+  text-align: center;
+}
+.div-title span{
+  font-style: italic;
+  color: darksalmon;
+}
+.div-title h2{
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.merch-gallery{
+  /* display: inline-block; 
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  padding-top: 50px;;
+}
+.merch-item{
+  /* width: 20%; 
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.merch-item img{
+  width: 250px;
+}
+.merch-item h3{
+  text-transform: uppercase;
+}
+.merch-item span,
+.merch-item p{
+  color: darksalmon;
+}
+
+*/
+
+/* Ads Big Area */
+.ads-big{
+  background-image: src(../images/);
+}
