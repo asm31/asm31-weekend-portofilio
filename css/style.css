@@ -139,7 +139,7 @@ body{
 .ads2 .ads-box:nth-child(1){
   background-image: url(../images/merchandise3.jpg);
 }
-.ds2 .ads-box:nth-child(2){
+.ads2 .ads-box:nth-child(2){
   background-image: url(../images/merchandise4.jpg);
 }
 .ads2 .ads-box:nth-child(3){
@@ -195,7 +195,7 @@ body{
 .div-title hr{
   background-color: #c7a17a;
   width: 10%;
-  height: 4%;
+  height: 4px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -234,8 +234,49 @@ body{
   color: #c7a17a;
 }
 
+/* Ads Big Area */
+.ads-big{
+  width: 85%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom:5%;
+}
+.ads-big-text{
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
 
+.ads-big-text span{
+  color: #c7a17a;
+  font-style: italic;
+  font-size: 25px;
+}
 
+.ads-big-text h2{
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.ads-big-text a{
+  color: #312A26;
+  background-color: white;
+  font-weight: 800;
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+/* My code */
 /*
 .banner{
   position: relative;
@@ -369,6 +410,45 @@ body{
 */
 
 /* Ads Big Area */
+/*
 .ads-big{
-  background-image: src(../images/);
+  background-color: #312A23;
+  background-image: url(../images/banner.jpg);
+  width: 87%;
+  height: 400px;
+  background-size: cover;
+  background-position:center;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
 }
+
+.ads-big-text{
+  width: 60%;
+  position: relative;
+  top: 35%;
+  left: 20%;
+  text-align: center;
+}
+.ads-big-text span{
+  color: #c7a17a;
+  font-style: italic;
+}
+.ads-big-text h2{
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.ads-big-text a{
+  padding: 15px 20px;
+  background-color: white;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+}
+*/
+
+/* Reservation Form */
