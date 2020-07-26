@@ -276,6 +276,68 @@ body{
   text-decoration: none;
 }
 
+/* Reservation Form */
+.reservation{
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.res-form{
+  overflow: auto;
+}
+.res-form-left,
+.res-form-right{
+  width: 49.5%;
+  float: left;
+  background-color: #f2f2f2;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.res-form-left{
+  margin-right: 1%;
+}
+.res-form label,
+.res-form input,
+.res-form textarea,
+.res-form select{
+  display: block;
+  width: 100%;
+  font-family: 'Open sans',sans-serif;
+}
+
+.res-form input,
+.res-form textarea,
+.res-form select{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.res-form label{
+  font-weight: 700;
+}
+
+.subtitle{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input.form-inline,
+label.form-inline{
+  display: inline;
+  width: auto;
+}
+
+.btn{
+  background-color: #4caf50;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+
 /* My code */
 /*
 .banner{
@@ -452,3 +514,58 @@ body{
 */
 
 /* Reservation Form */
+/* .res-form{
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+.res-form-left,
+.res-form-right{
+  background-color: lightgray;
+  width: 40%;
+  display: inline-block;
+  overflow: auto;
+  vertical-align: top;
+  text-align: left;
+}
+
+.res-form-left label,
+.res-form-right label{
+  position: relative;
+  margin-right:auto; 
+  margin-left:10px;
+  font-weight: bold;
+}
+.res-form-left select,
+.res-form-right textarea,
+.res-form-right input,
+.res-form-left input{
+  width: 95%;
+  margin-left: 10px;
+}
+.res-form-left #am,
+.res-form-left #pm{
+  width: 3%;
+}
+
+.subtitle{
+  text-align: center;
+}
+.subtitle h3{
+  text-transform: uppercase;
+}
+.subtitle p{
+  font-weight: bold;
+}
+.res-form-right #agree{
+  width: 5%;
+  text-align: left;
+}
+.btn{
+  background-color: green;
+  padding: 5px 0px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 10px;
+} */
